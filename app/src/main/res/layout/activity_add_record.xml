@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRecord"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_text"
+        android:text="Contact information"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/personImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_action_name"
+        ></ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/personName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        >
+
+    </EditText> <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/personPhone"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="300dp"
+    android:hint="Phone"
+    android:inputType="phone"
+    >
+
+</EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/personCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:hint="Category"
+        android:inputType="text"
+        >
+
+    </EditText>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/addBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="SAVE"
+        android:background="@color/colorAccent">
+
+    </Button>
+</RelativeLayout>

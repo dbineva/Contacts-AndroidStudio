@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="invalid_name">Please Enter Valide Name</string>
+    <string name="invalide_mobile">Please enter a valide number</string>
+</resources>
